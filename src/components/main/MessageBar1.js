@@ -4,8 +4,8 @@ import Profile from "../Profile"
 export default function MessageBar1(props) {
     return (
         <div >
-            <div className="w-full flex flex-row  p-[20px] mt-[20px]  bg-color2 ">
-                <div className="mt-[40px]">
+            <div className="w-full flex flex-row p-[5px]  md:p-[20px] mt-[20px]  bg-color2 ">
+                <div className="mt-[40px] ">
                     <Profile width={50} height={50} />
                 </div>
                 <div className="">
@@ -23,17 +23,17 @@ export default function MessageBar1(props) {
                             10:49 AM
                         </div>
                     </div>
-                    <div className="flex flex-row mt-4">
-                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] ">
+                    <div className="flex flex-wrap justify-start items-start mt-4">
+                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] mt-[2px] ">
                             @Alex
                         </div>
-                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] ml-3">
+                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] mt-[2px] ml-3">
                             @Kevin
                         </div>
-                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] ml-3">
+                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] mt-[2px] ml-3">
                             @Javed
                         </div>
-                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] ml-3">
+                        <div className="bg-color4 rounded-[5px] px-[4px] text-[#00aa11] mt-[2px] ml-3">
                             @Jpeced
                         </div> <div className=" text-[#FFF] ml-3">
                             @howdybot
@@ -42,7 +42,7 @@ export default function MessageBar1(props) {
                 </div>
 
             </div>
-            <div className="flex flex-row ml-[110px] mt-[5px]">
+            <div className="flex flex-row ml-[50px] md:ml-[110px] mt-[5px]">
                 <div className=" text-[#FFF] ">
                     Sorry for the pings
                 </div>

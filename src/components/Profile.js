@@ -5,12 +5,11 @@ export default function Profile(props) {
     const { width, height, selected } = props;
 
     return (
-        <div className="relative mx-[16px] " >
+        <div className="relative mx-[6px] md:mx-[16px] " >
             <img className="rounded-full" width={width} height={height} src={AvatarImg} />
             {
                 selected == 0 &&
                 <div className="" >
-
                 </div>
             }
             {

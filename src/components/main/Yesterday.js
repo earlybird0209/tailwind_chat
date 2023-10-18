@@ -5,7 +5,7 @@ import MessageBar2 from "./MessageBar2"
 
 export default function Yesterday(props) {
     return (
-        <div className="">
+        <div className="w-full">
             < div className="flex flex-row items-center  mt-[50px]">
                 <div className="w-full h-[0px] border-[1px] border-[#ddd]">
                 </div>
@@ -17,6 +17,9 @@ export default function Yesterday(props) {
             </div>
             <MessageBar />
             <MessageBar2 />
+            <MessageBar />
+            <MessageBar />
+            <MessageBar />
             <ReponseComponent />
         </div>
     )

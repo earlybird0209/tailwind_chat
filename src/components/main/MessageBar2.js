@@ -5,7 +5,7 @@ export default function MessageBar2(props) {
     return (
         <div >
             <div className="flex flex-col mt-[20px]">
-                <div className="flex flex-row ml-[80px]">
+                <div className="flex flex-row ml-[60px] md:ml-[80px]">
                     <Profile width={20} height={20} />
                     <div className="text-[#33FF00]">
                         Kevin
@@ -16,11 +16,11 @@ export default function MessageBar2(props) {
                 </div>
 
             </div>
-            <div className="flex flex-row px-5  ">
-                <div className="mt-[10px]">
+            <div className="flex flex-row px-2 md:px-5 w-full  ">
+                <div className="flex w-[100px] mt-[10px] ">
                     <Profile width={50} height={50} />
                 </div>
-                <div className="bg-color2 w-full p-[20px] mt-[10px] rounded-[10px]">
+                <div className="bg-color2  p-[5px] md:p-[20px] mt-[10px] rounded-[5px] md:rounded-[10px]">
                     <div className="text-[#FFF]">
                         Archieved Thread
                     </div>
